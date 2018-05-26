@@ -39,4 +39,5 @@
   }
 </script>
 <style lang="less">
+  /*@import "..src/assets/css/reset.less"*/
 </style>

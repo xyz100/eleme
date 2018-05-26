@@ -6,10 +6,13 @@ var cleanWebpackPlugin = require('clean-webpack-plugin')
 module.exports = {
   entry: './src/main.js',
   output: {
+    // path: path.resolve(__dirname, './dist'),
+    // publicPath: './',
+    // // publicPath: '/dist/',
+    // // filename: 'build.js'
+    // filename: 'build-[hash].js'
     path: path.resolve(__dirname, './dist'),
     publicPath: './',
-    // publicPath: '/dist/',
-    // filename: 'build.js'
     filename: 'build-[hash].js'
   },
   plugins: [
